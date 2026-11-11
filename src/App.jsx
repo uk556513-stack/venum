@@ -54,7 +54,7 @@ import accordion4 from "./assets/accordion-4.jpg";
 const products = [
   {
     id: 1,
-    name: "OVERSIZED SHADOW TEE",
+    name: "OVERSIZED SHADOW",
     category: "T-Shirt",
     price: 1299,
     oldPrice: 1699,
@@ -63,7 +63,7 @@ const products = [
   },
   {
     id: 2,
-    name: "VENUM STREET HOODIE",
+    name: "VENUM STREET",
     category: "Hoodie",
     price: 1999,
     oldPrice: 2499,
@@ -72,7 +72,7 @@ const products = [
   },
   {
     id: 3,
-    name: "URBAN GRAPHIC TEE",
+    name: "URBAN GRAPHIC",
     category: "T-Shirt",
     price: 1099,
     oldPrice: 1499,
@@ -81,7 +81,7 @@ const products = [
   },
   {
     id: 4,
-    name: "ESSENTIAL BLACK HOODIE",
+    name: "ESSENTIAL BLACK",
     category: "Hoodie",
     price: 2199,
     oldPrice: 2699,
@@ -90,7 +90,7 @@ const products = [
   },
   {
     id: 5,
-    name: "SIGNATURE OVERSIZED TEE",
+    name: "SIGNATURE OVERSIZED",
     category: "T-Shirt",
     price: 1399,
     oldPrice: 1799,
@@ -99,7 +99,7 @@ const products = [
   },
   {
     id: 6,
-    name: "PREMIUM STREET HOODIE",
+    name: "PREMIUM STREET",
     category: "Hoodie",
     price: 2299,
     oldPrice: 2799,
@@ -710,7 +710,7 @@ function App() {
             <h3>{item.title}</h3>
 
             <span>
-              DISCOVER MORE ↗
+              DISCOVER MORE 
             </span>
 
           </div>
@@ -1084,7 +1084,7 @@ function App() {
     </a>
 
     <div className="banner-watermark">
-      V
+      VM
     </div>
 
   </div>
@@ -1397,8 +1397,6 @@ function App() {
       <div className="col-lg-3">
 
         <h4>YOUR BAG</h4>
-
-       
 
         <a
           href="#products"
