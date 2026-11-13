@@ -7227,3 +7227,48 @@ html {
   overflow-y: auto;
   scroll-behavior: smooth;
 }
+/* =================================
+   MOBILE ADD TO BAG FIX
+================================= */
+
+@media (max-width: 767px) {
+
+  .product-card {
+    overflow: hidden;
+  }
+
+  .product-image {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .quick-add {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: none !important;
+
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+    right: 8px;
+
+    width: calc(100% - 16px);
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    padding: 12px 5px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+
+  .favorite-btn {
+    z-index: 11;
+    pointer-events: auto;
+  }
+
+}
